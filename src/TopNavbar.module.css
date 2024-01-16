@@ -1,0 +1,30 @@
+.nav ul li:first-child { 
+    float: left;
+    margin-left: 10px;
+}
+
+.nav {
+    text-align: right;
+}
+
+.nav ul li { 
+    list-style:none;
+    font-family: Comic Sans MS, sans-serif;
+    font-size: 2rem;
+    display: inline-block;
+    margin-right: 60px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black; /* Customize the color as needed */
+}
+
+.nav ul li:not(:first-child):hover a {
+    color: #73b2fa; /* Customize the hover color as needed */
+  }
+
+.container {
+    overflow: auto;
+    padding-bottom: 10px;
+}
