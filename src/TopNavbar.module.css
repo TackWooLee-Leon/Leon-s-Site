@@ -12,7 +12,7 @@
     font-family: Comic Sans MS, sans-serif;
     font-size: 2rem;
     display: inline-block;
-    margin-right: 60px;
+    margin-right: 5rem;
 }
 
 .nav a {
@@ -27,4 +27,8 @@
 .container {
     overflow: auto;
     padding-bottom: 10px;
+    position: sticky;
+    top: 0;
+    
 }
+

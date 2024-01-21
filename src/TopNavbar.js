@@ -1,6 +1,6 @@
 import styles from './TopNavbar.module.css'
 
-export default function Navbar() {
+export default function TopNavbar() {
     return (
         <div className={styles.container}>
             <nav className = {styles.nav}>
