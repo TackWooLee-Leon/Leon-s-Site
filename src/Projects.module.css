@@ -1,0 +1,37 @@
+h1 {
+    font-family: 'Poppins', sans-serif;   
+    font-size: 3rem;
+}
+
+.container{
+    border: 3px solid red;
+    height: 70vh;
+    padding: 0 10px 0 10px;
+    margin: 0 70px 30px 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+}
+
+.projectCard {
+    border: 1px solid blue;
+    height: 55vh;
+    width: 90rem;
+    display: flex;
+    justify-content: space-around;
+    margin: 5rem 0 5rem 0;
+
+}
+
+.projectCard img {
+    border: 1px solid black;
+}
+
+p {
+    width: 40ch;
+}
