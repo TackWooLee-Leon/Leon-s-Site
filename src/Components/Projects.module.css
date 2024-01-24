@@ -1,0 +1,78 @@
+.projectName {
+    /* font-family: 'Poppins', sans-serif;    */
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+
+.projectContainer{
+    border: 2px solid black;
+    border-radius: 30px;
+    height: 90vh;
+    padding: 0 10px 0 10px;
+    margin: 5rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.projectInformation {
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0 5rem 0;
+    column-gap: 10%;
+}
+
+.projectImg {
+    border: 1px solid black;
+    border-radius: 20px;
+    max-width: 40rem;
+}
+
+/* to contain paragraph and span */
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 40rem;
+}
+
+.wrapper p {
+    width: 100%;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper span {
+    font-size: 1.5rem;
+    line-height: 3rem;
+    text-decoration: underline;
+}
+
+.wrapper span a {
+    color: #19AFFF;
+    text-decoration: none;
+}
+
+.wrapper span a:visited {
+    color: #19AFFF;
+}
+
+.repo {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    /* border: 1px solid blue; */
+    margin-top: -1.5rem;
+    height: 3rem;
+}
+
+.repo img {
+    width: 4rem;
+    height: 100%;
+}
