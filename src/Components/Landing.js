@@ -5,22 +5,29 @@ export default function Landing() {
         <>
         {/* top navbar */}
         <header>
-            <nav className = {styles.nav}>
-                    <ul>
-                        <li>
-                            <a>Leon Lee</a>
-                        </li>
-                        <li>
-                            <a href="#about">About</a>
-                        </li>
-                        <li>
-                            <a href="#projects">Projects</a>
-                        </li>
-                        <li>
-                            <a href="#contacts">Contacts</a>
-                        </li>
-                    </ul>
+            {/* <div className={styles.navContainer}> */}
+            <nav className={styles.nav}>
+                <ul className={styles.navContainer}>
+                    <li className={styles.navName}>
+                        <a>Leon Lee</a>
+                    </li>
+
+                    <li className={styles.navLink}>
+                        <a href="#about">About</a>
+                    </li>
+
+                    <li className={styles.navLink}>
+                        <a href="#projects">Projects</a>
+                    </li>
+
+                    <li className={styles.navLink}>
+                        <a href="#contacts">Contacts</a>
+                    </li>
+                </ul>
             </nav>
+
+            {/* </div> */}
+        
         </header>
        
         {/* hero section */}
