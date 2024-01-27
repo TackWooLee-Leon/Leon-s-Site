@@ -16,12 +16,13 @@ function App() {
           name: 'Math Wordle'
         }}
       />
+      <h1>testestestes</h1>
       <Projects info={{
         src: '/images/budget-app.png',
         alt: "Budget App",
         description: 'This is a budget app that calculates how much money you would have after you entered your expenses. I used HTML and CSS to design the layout, and Javascript for the logic.',
         href: '',
-        name: 'Budget App'
+        name: ''
       }}
       />
     </div>
