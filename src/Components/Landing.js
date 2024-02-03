@@ -3,33 +3,6 @@ import styles from './Landing.module.css'
 export default function Landing() {
     return (
         <>
-        {/* top navbar */}
-        <header>
-            {/* <div className={styles.navContainer}> */}
-            <nav className={styles.nav}>
-                <ul className={styles.navContainer}>
-                    <li className={styles.navName}>
-                        <a>Leon Lee</a>
-                    </li>
-
-                    <li className={styles.navLink}>
-                        <a href="#about">About</a>
-                    </li>
-
-                    <li className={styles.navLink}>
-                        <a href="#projects">Projects</a>
-                    </li>
-
-                    <li className={styles.navLink}>
-                        <a href="#contacts">Contacts</a>
-                    </li>
-                </ul>
-            </nav>
-
-            {/* </div> */}
-        
-        </header>
-       
         {/* hero section */}
         <section id="about" className={styles.landingContainer}>
             <div className={styles.imgContainer}>
