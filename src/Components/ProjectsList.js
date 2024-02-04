@@ -13,13 +13,6 @@ const projectsList = [
     alt: "Budget App",
     href: ''
   },
-  {
-    name: 'Portfolio',
-    description: '',
-    src: '',
-    alt: '',
-    href: ''
-  }
 ];
 
 export default projectsList
