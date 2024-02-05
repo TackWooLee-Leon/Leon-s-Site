@@ -3,7 +3,7 @@ import styles from './Landing.module.css'
 export default function Landing() {
     return (
         <>
-       
+
         {/* hero section */}
         <section id="about" className={styles.landingContainer}>
             <div className={styles.imgContainer}>

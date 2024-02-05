@@ -1,3 +1,4 @@
+
 import styles from './NavBar.module.css'
 
 export default function NavBar() {
@@ -31,4 +32,3 @@ export default function NavBar() {
     )
 
 
-}
