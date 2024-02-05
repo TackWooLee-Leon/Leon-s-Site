@@ -1,11 +1,11 @@
 .landingContainer {
     border: 3px solid blue;
-    height: 90vh;
+    height: 93vh;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0 10px 0 10px;
-    margin: 0 5rem 5rem 5rem;
+    margin-bottom: 5rem;
 }
 
 .introductionContainer{
