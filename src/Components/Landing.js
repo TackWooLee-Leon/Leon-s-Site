@@ -11,9 +11,7 @@ export default function Landing() {
             </div>
 
             <div className={styles.introductionContainer}>
-                <h1 id={styles.header}>
-                    Front-End Web Developer
-                </h1>
+                <h1 id={styles.header}>Front-End Web Developer</h1>
                 {/* add "click to read more about me" after willing to learn */}
                 <p>
                     Hi, my name is Tack Woo Lee but you can call me Leon. I'm a passionate Front-End Web Developer from Toronto, Canada. 

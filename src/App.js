@@ -22,6 +22,7 @@ function App() {
         return (<ProjectsDisplay info={item} key={item.name}/>)
       })}
       
+      <h1 id="contactHeader">Contact Me</h1>
       <Contact />
     </div>
   );
