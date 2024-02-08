@@ -3,7 +3,6 @@ import styles from './Contact.module.css'
 export default function Contact () {
     return(
         <div className={styles.contactContainer}>
-            <h1 className={styles.contactHeader}>Contact Me</h1>
             <a href="mailto:tackwlee01@gmail.com"><img src="/images/gmail.svg" alt="gmail logo"></img></a>
 
             <div className={styles.formContainer}>
@@ -15,7 +14,7 @@ export default function Contact () {
                     <label for="Message">Message</label>
                     <textarea id={styles.message} type="text" name="message" required placeholder="Enter Message"></textarea>
                     <input type="hidden" name="_captcha" value="false"></input>
-                    <button className={styles.button} type="submit">Send Message</button>
+                    <button className={styles.button} type="submit">Submit</button>
                 </form>
             </div>
         </div>
