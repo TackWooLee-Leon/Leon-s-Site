@@ -16,6 +16,7 @@ export default function Contact () {
                     <input type="hidden" name="_captcha" value="false"></input>
                     <button className={styles.button} type="submit">Submit</button>
                 </form>
+             
             </div>
         </div>
     )
