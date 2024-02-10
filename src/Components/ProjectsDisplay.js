@@ -1,4 +1,4 @@
-import styles from './Projects.module.css'
+import styles from './ProjectsDisplay.module.css'
 
 export default function ProjectsDisplay({info}) {
     console.log(info);

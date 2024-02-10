@@ -9,21 +9,19 @@ import Contact from './Components/Contact'
 function App() {
   return (
     <div className="App">
-
-
       <NavBar />
       
-
       <Landing />
 
-      <h1 id="projectHeader">Projects</h1>
-
+      <h1 id="projectHeader">Projects</h1>  
+    
       {projectsList.map((item)=> {
         return (<ProjectsDisplay info={item} key={item.name}/>)
       })}
-      
+
       <h1 id="contactHeader">Contact Me</h1>
       <Contact />
+
     </div>
   );
 }
