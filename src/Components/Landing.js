@@ -15,10 +15,10 @@ export default function Landing() {
                 {/* add "click to read more about me" after willing to learn */}
                 <p>
                     Hi, my name is Tack Woo Lee but you can call me Leon. I'm a passionate Front-End Web Developer from Toronto, Canada. 
-                    I'm from South Korea but I was born in China, so I know how to speak Mandarin, but ironically I don't speak 
+                    {/* I'm from South Korea but I was born in China, so I know how to speak Mandarin, but ironically I don't speak 
                     Korean. (I know...)
                     I picked up programming about a year and half ago, since then I kept learning while I can and now I've built several projects
-                    in vanilla JS and React JS. 
+                    in vanilla JS and React JS.  */}
                 </p>
                 <div className={styles.logosContainer}>
                     <img src="/images/html.svg" alt="HTML Logo"></img>
@@ -28,7 +28,10 @@ export default function Landing() {
                     <img src="/images/github.svg" alt="GitHub Logo"></img>
                 </div>
             </div>
+
+            
         </section>
+       
         </>
         
     )
