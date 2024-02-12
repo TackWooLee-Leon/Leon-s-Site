@@ -39,7 +39,7 @@
 
 
 .nav ul li:not(:first-child):hover a {
-    color: #73b2fa; 
+    color: yellow; 
   }
 
 

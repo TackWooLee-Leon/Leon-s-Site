@@ -71,7 +71,7 @@
         right: 0;
         bottom: 0;
         border-radius: 50%;
-        border-top: 5px solid rgb(247, 15, 182);
+        border-top: 7px solid yellow;
         transition: transform 2.0s;
         animation: clippath 3s infinite linear;
     }
@@ -100,7 +100,7 @@
     border-radius: 100% 50%;
     width: 55%;
     height: 100%;
-    background-color: black;
+    background-color: #2c102d;
     transform: translate(84.8%, 60.3%);
     z-index: 1;
 }

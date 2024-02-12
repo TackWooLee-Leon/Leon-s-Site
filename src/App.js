@@ -16,6 +16,8 @@ function App() {
     
       <ProjectSection />
 
+      {/* wave divider */}
+      <div className="spacer layer1"></div>
       <Contact />
 
     </div>
