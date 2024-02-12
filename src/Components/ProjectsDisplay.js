@@ -4,6 +4,7 @@ export default function ProjectsDisplay({info}) {
     console.log(info);
     return (
         <section id="projects" className={styles.projectContainer}>
+            
             <h1 className={styles.projectName}>{info.name}</h1>
             <div className={styles.projectInformation}>
                 <img className={styles.projectImg} src={info.src} alt={info.alt}></img>

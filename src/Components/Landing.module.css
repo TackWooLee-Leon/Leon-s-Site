@@ -1,11 +1,19 @@
 .landingContainer {
     /* border: 3px solid blue; */
-    height: 93vh;
+    height: 110vh;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0 10px 0 10px;
-    margin-bottom: 5rem;
+    background-color: #1A0F24;
+    position: relative;
+}
+
+.contentContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10vh;
 }
 
 .introductionContainer{
@@ -76,4 +84,34 @@
 .imgContainer img {
     width: 100%;
     height: 100%; 
+}
+
+.curve {
+    position: absolute;
+    height: 300px;
+    width: 100%;
+    bottom: 0;
+}
+
+.curve::before {
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 55%;
+    height: 100%;
+    background-color: black;
+    transform: translate(84.8%, 60.3%);
+    z-index: 1;
+}
+
+.curve::after {
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 55%;
+    height: 100%;
+    background-color: #1A0F24;
+    transform: translate(-4%, 40%);
 }

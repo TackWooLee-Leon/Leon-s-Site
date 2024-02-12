@@ -1,13 +1,5 @@
 .App {
   text-align: center;
-}
-
-#projectHeader {
-  font-size: 3rem;
-
-}
-
-#contactHeader {
-  font-size: 3rem;
+  overflow-x: hidden;
 }
 
