@@ -1,13 +1,18 @@
 .App {
   text-align: center;
+  overflow-x: hidden;
 }
 
-#projectHeader {
-  font-size: 3rem;
-
+/* wave divider between project and contact section */
+.spacer {
+  aspect-ratio: 900/150;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-#contactHeader {
-  font-size: 3rem;
-}
 
+.layer1 {
+  background-image: url('/public/images/waves.svg');
+}

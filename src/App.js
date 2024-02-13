@@ -4,6 +4,7 @@ import ProjectsDisplay from './Components/ProjectsDisplay'
 import projectsList from './Components/ProjectsList'
 import NavBar from './Components/NavBar';
 import Contact from './Components/Contact'
+import ProjectSection from './ProjectSection';
 
 
 function App() {
@@ -12,14 +13,11 @@ function App() {
       <NavBar />
       
       <Landing />
-
-      <h1 id="projectHeader">Projects</h1>  
     
-      {projectsList.map((item)=> {
-        return (<ProjectsDisplay info={item} key={item.name}/>)
-      })}
+      <ProjectSection />
 
-      <h1 id="contactHeader">Contact Me</h1>
+      {/* wave divider */}
+      <div className="spacer layer1"></div>
       <Contact />
 
     </div>
