@@ -13,11 +13,13 @@ export default function Landing() {
 
             <div className={styles.introductionContainer}>
                 
-                
-                    <h1 id={styles.header}>Front-End Web Developer</h1>
+                {/* <div className={styles}></div> */}
+                    <h2 id={styles.head}>Hi, my name is</h2>
+                    <h1 id={styles.name}>Leon Lee.</h1>
+                    <h1 id={styles.title}>Front-End Web Developer</h1>
                     {/* add "click to read more about me" after willing to learn */}
                     <p>
-                        Hi, my name is Tack Woo Lee but you can call me Leon. I'm a passionate Front-End Web Developer from Toronto, Canada. 
+                        I'm a passionate Front-End Web Developer from Toronto, Canada.
                         {/* I'm from South Korea but I was born in China, so I know how to speak Mandarin, but ironically I don't speak 
                         Korean. (I know...)
                         I picked up programming about a year and half ago, since then I kept learning while I can and now I've built several projects
@@ -35,6 +37,8 @@ export default function Landing() {
             </div>
 
             <div className={styles.curve}></div>
+            <div className={styles.slope}></div>
+            <div className={styles.stickman}></div>
         </section>
        
         </>
