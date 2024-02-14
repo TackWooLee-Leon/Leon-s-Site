@@ -38,6 +38,7 @@
 
 #head {
     color: #f3d512;
+    
 }
 
 #name {
@@ -151,11 +152,10 @@
 .stickman{
     position: absolute;
     background-image: url('/public/images/stickman.svg');
-    bottom: 10%;
-    left: 83%;
-    height: 7vh;
-    width: 5rem;
-    border: 1px solid red;
-    
-
+    bottom: 7%;
+    left: 82.5%;
+    height: 10vh;
+    width: 5vw;
+    /* border: 1px solid red; */
+    background-repeat: no-repeat;
 }
