@@ -10,9 +10,11 @@ import ProjectSection from './ProjectSection';
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      
-      <Landing />
+      <div className='backgroundContainer'>
+        <NavBar />
+        <Landing />
+      </div>
+
     
       <ProjectSection />
 

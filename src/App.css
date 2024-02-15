@@ -16,3 +16,7 @@
 .layer1 {
   background-image: url('/public/images/waves.svg');
 }
+
+.backgroundContainer{
+  background-image: url('/public/images/blob.svg');
+}

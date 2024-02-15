@@ -6,10 +6,9 @@
 
     width: auto;
     top: 0;
-    background-color: #1A0F24;
     z-index: 1;
     height: 6vh;
-    border-bottom: 1px solid;
+    /* border-bottom: 1px solid; */
     padding: 0.6rem;
   }
 
