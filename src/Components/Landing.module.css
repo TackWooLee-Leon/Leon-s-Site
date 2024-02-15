@@ -163,7 +163,7 @@
     background-repeat: no-repeat;
     left: 15%; 
     bottom: 15%;
-    animation: rotate 4s linear infinite;
+    animation: rotate 3s linear infinite;
 }
 
 @keyframes rotate {
