@@ -144,7 +144,7 @@
 }
 
 .spiral {
-    background-image: url('/public/images/spiral.svg');
+    background-image: url('/public/images/wave-shape.svg');
     position: absolute;
     width: 5vw;
     height: 10vh;

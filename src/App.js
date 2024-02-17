@@ -21,7 +21,7 @@ function App() {
       {/* wave divider */}
       <div className="spacer layer1"></div>
       <Contact />
-
+      <div className="steps"></div>
     </div>
   );
 }
