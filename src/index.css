@@ -8,6 +8,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100%;
+  
 }
 
 code {
@@ -24,3 +25,18 @@ html {
   background: linear-gradient(0deg, #1A0F24, #64437c 80%); */
 }
 
+::-webkit-scrollbar {
+  width: 12px; 
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00C9B0; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #007567; 
+}
