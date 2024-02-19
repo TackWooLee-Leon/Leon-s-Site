@@ -51,14 +51,26 @@
     margin: 0.4rem 0 0.4rem 0;
 }
 
-.arrow {
-    height: 8vh;
-    rotate: 140deg;
+.emailLink {
+    text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+    transition: text-decoration-color 300ms, text-underline-offset 300ms;
+    text-underline-offset: 0.2em;
+    color: #f3d512; 
+}
+
+
+.emailLink:hover {
+    text-decoration-color: #00C9B0;
+    text-underline-offset: 0.3em;
 }
 
 .contactInfo {
     /* border: 1px solid blue; */
     width: 40rem;
+}
+
+.contactInfo span {
+    color: #f3d512;
 }
 
 .formContainer {
@@ -98,7 +110,16 @@
     border: 0;
     background-color: #473356;
     color: #FFFADE;
-    box-shadow: 10px 10px #09040b;
+    box-shadow: 5px 5px #09040b;
+    transition: box-shadow 300ms;
+}
+
+.formContainer input:hover {
+    box-shadow: 15px 15px #09040b;
+}
+
+.formContainer input:focus {
+    outline: 2px solid #00C9B0;
 }
 
 #message {
@@ -113,12 +134,21 @@
     border-radius: 10px;
     border: 0;
     resize: none;
-    box-shadow: 10px 10px #09040b;
+    box-shadow: 5px 5px #09040b;
+    transition: box-shadow 300ms;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;;
+}
+
+#message:hover {
+    box-shadow: 15px 15px #09040b;
+}
+
+#message:focus{
+    outline: 2px solid #00C9B0;
 }
 
 ::placeholder {
@@ -136,5 +166,11 @@
     background-color: #473356;
     color: #f3d512;
     box-shadow: 10px 10px #09040b;
+    cursor: pointer;
+    border: 2px solid rgba(0, 0, 0, 0);
+    transition: border 300ms;
 }
 
+.button:hover{
+    border: 2px solid #00C9B0;
+}

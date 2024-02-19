@@ -8,12 +8,12 @@ export default function Contact () {
             <div className={styles.contactLinks}>
                 <div className={styles.contactInfo}>
                     <h1>Let's Chat.</h1>
-                    <p>I'm currently looking for a Web Developer role, let me know if you think I'm a good fit! If you have questions, you can contact me through the form as well.</p>
+                    <p>I'm currently looking for a <span>Web Developer</span> role, let me know if you think I'm a good fit! If you have questions, you can contact me through the form as well.</p>
                     <div className={styles.emailContainer}>
                         <a href="mailto:tackwlee01@gmail.com"><img src="/images/gmail.svg" alt="gmail logo"></img></a>
-                        <h2>Email me at tackwlee1@gmail.com</h2>
+                        <h2>Email me at <a className={styles.emailLink} href="mailto:tackwlee1@gmail.com">tackwlee1@gmail.com</a></h2>
                     </div>
-                    <h3>or click the gmail icon above!</h3>
+                    {/* <h3>or click the gmail icon above!</h3> */}
                 </div>
 
             </div>
