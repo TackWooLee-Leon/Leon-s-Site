@@ -7,11 +7,12 @@ export default function ProjectSection({info}) {
     return (
       <div className={styles.projectSection}>
             <h1 className={styles.projectHeader}>Projects</h1>
-          <div className='projectsGrid'>
+          <div className={styles.projectsGrid}>
             {projectsList.map((item)=> {
             return (<ProjectsDisplay info={item} key={item.name}/>)
         })}
-        </div>
+          </div>
+        
       </div>
     )
 }
