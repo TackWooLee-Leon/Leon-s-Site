@@ -23,6 +23,7 @@ html {
   /* figure out how to fix html background color when scroll above/below body */
   /* background-color: #1A0F24;
   background: linear-gradient(0deg, #1A0F24, #64437c 80%); */
+  scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar {
