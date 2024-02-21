@@ -5,7 +5,8 @@ export default function ProjectsDisplay({info}) {
     return (
         <section id="projects" className={styles.projectContainer}>
             <div className={styles.projectInformation}>
-                <img className={styles.projectImg} src={info.src} alt={info.alt}></img>
+                    <img className={styles.projectImg} src={info.src} alt={info.alt}></img>
+                
                 <div className={styles.projectDescriptionWrapper}>
                     <h1 className={styles.projectName}>{info.name}</h1>
                     <p> {info.description} </p>
