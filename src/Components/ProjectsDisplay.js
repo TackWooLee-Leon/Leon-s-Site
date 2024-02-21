@@ -4,10 +4,10 @@ export default function ProjectsDisplay({info}) {
     console.log(info);
     return (
         <section id="projects" className={styles.projectContainer}>
-            <div className={styles.projectInformation}>
+            <div className={`${styles.reveal} ${styles.projectInformation}`}>
                     <img className={styles.projectImg} src={info.src} alt={info.alt}></img>
                 
-                <div className={styles.projectDescriptionWrapper}>
+                <div className={`${styles.reveal} ${styles.projectDescriptionWrapper}`}>
                     <h1 className={styles.projectName}>{info.name}</h1>
                     <p> {info.description} </p>
                     <div className={styles.repo}>

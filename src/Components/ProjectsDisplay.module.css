@@ -18,7 +18,8 @@
     height: 45rem;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 10px 10px #170918;
+    box-shadow: 10px 10px 10px 10px #170918;
+
 }
 
 .projectImg {
@@ -31,7 +32,7 @@
 
 .projectDescriptionWrapper {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     flex-direction: column;
     background-color: #2a1d37;
     height: 25rem;
@@ -39,12 +40,14 @@
 
 .projectName {
     /* font-family: 'Poppins', sans-serif;    */
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 1000;
+    /* margin-bottom: 3rem; */
 }
 
 .projectDescriptionWrapper p {
-    font-size: 1.3rem;
+    
+    font-size: 1.2rem;
     line-height: 1.5;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
@@ -54,18 +57,26 @@
 }
 
 .projectDescriptionWrapper span {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     line-height: 3rem;
-    text-decoration: underline;
+    font-weight: 600;
+    text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+    transition: text-decoration-color 300ms, text-underline-offset 300ms;
+    text-underline-offset: 0.2em;
+}
+
+.projectDescriptionWrapper span:hover {
+    text-decoration-color: #00C9B0;
+    text-underline-offset: 0.3em;
 }
 
 .projectDescriptionWrapper span a {
-    color: #19AFFF;
+    color: #00C9B0;
     text-decoration: none;
 }
 
 .projectDescriptionWrapper span a:visited {
-    color: #19AFFF;
+    color: #00C9B0;
 }
 
 .repo {
@@ -75,8 +86,25 @@
     /* border: 1px solid blue; */
     margin-top: -1.5rem;
     height: 3rem;
+    margin-bottom: 2rem;
 }
 
 .repo img {
     width: 4rem;
+}
+
+@media (prefers-reduced-motion: no-preference){
+    .reveal {
+        animation: slide-up 1000ms;
+    
+    }
+
+    @keyframes slide-up {
+        from {
+            transform: translateY(100%);
+        }
+        to {
+            transform: translateY(0%);
+        }
+    }
 }
