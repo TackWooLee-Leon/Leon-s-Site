@@ -92,19 +92,3 @@
 .repo img {
     width: 4rem;
 }
-
-@media (prefers-reduced-motion: no-preference){
-    .reveal {
-        animation: slide-up 1000ms;
-    
-    }
-
-    @keyframes slide-up {
-        from {
-            transform: translateY(100%);
-        }
-        to {
-            transform: translateY(0%);
-        }
-    }
-}
