@@ -3,8 +3,6 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-
-    width: auto;
     top: 0;
     z-index: 1;
     height: 6vh;
@@ -14,6 +12,8 @@
 
 .navContainer {
     display: flex;
+    width: 100%;
+    justify-content: space-between;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -21,15 +21,23 @@
 }
   
 .navName {
-    margin-right: 70rem; 
+    margin-left: 3rem;
     font-size: 2rem;
     font-weight: 600;
 }
+
+.navLinksWrapper{
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+}
   
-.navLink {
+.navLinks {
     font-size: 1.7rem;
     padding-top: 5px;
     font-weight: 500;
+    margin-right: 3rem;
 }
 
 
@@ -48,3 +56,10 @@
     text-decoration: none;
     color: #FFFADE; 
 } 
+
+@media (max-width: 1750px) {
+    .nav{
+        background-color: red;
+        justify-content: space-evenly;
+    }
+    }

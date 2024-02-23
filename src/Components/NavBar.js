@@ -12,17 +12,19 @@ export default function NavBar() {
                 <a>Leon Lee</a>
             </li>
 
-            <li className={styles.navLink}>
-                <a href="#about">About</a>
-            </li>
+            <div className={styles.navLinksWrapper}>
+                <li className={styles.navLinks}>
+                    <a href="#about">About</a>
+                </li>
 
-            <li className={styles.navLink}>
-                <a href="#projects">Projects</a>
-            </li>
+                <li className={styles.navLinks}>
+                    <a href="#projects">Projects</a>
+                </li>
 
-            <li className={styles.navLink}>
-                <a href="#contacts">Contacts</a>
-            </li>
+                <li className={styles.navLinks}>
+                    <a href="#contacts">Contacts</a>
+                </li>
+            </div>
         </ul>
     </nav>
 
