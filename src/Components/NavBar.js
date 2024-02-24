@@ -1,37 +1,32 @@
-import { slide as Menu } from 'react-burger-menu';
+import { useState } from "react";
 import styles from './NavBar.module.css';
 
 export default function NavBar() {
+    const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+
+    const toggleSidebar = () => {
+        setIsSidebarOpen(!isSidebarOpen);
+    };
+
   return (
     <header>
     
-      <nav className={styles.nav}>
-        <ul className={styles.navContainer}>
-          <li className={styles.navName}>
-            <a>Leon Lee</a>
-          </li>
-          <div className={styles.navLinksWrapper}>
-            <li className={styles.navLinks}>
-              <a href="#about">About</a>
-            </li>
-            <li className={styles.navLinks}>
-              <a href="#projects">Projects</a>
-            </li>
-            <li className={styles.navLinks}>
-              <a href="#contacts">Contacts</a>
-            </li>
-          </div>
+      <nav>
+        <ul className={styles.sidebar}>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contacts">Contacts</a></li>
         </ul>
+        <div className={styles.navContainer}>
+            <ul>
+                <li><a>Leon Lee</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+                <li onClick={toggleSidebar}><a><svg xmlns="http://www.w3.org/2000/svg" height="50" viewBox="0 -960 960 960" fill="#FFFADE" width="50"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+        </div>
       </nav>
-
-      {/* burger menu */}
-      <div className={styles.bmContainer}>
-        <Menu right className={styles.burgerMenu}>
-            <a id="about" className={styles.menuItem} href="#about">About</a>
-            <a id="projects" className={styles.menuItem} href="#projects">Projects</a>
-            <a id="contacts" className={styles.menuItem} href="#contacts">Contacts</a>
-        </Menu>
-      </div>
     </header>
   );
 }
