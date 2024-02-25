@@ -41,7 +41,7 @@ export default function Landing() {
 
             <div className={styles.curve}></div>
             <div className={styles.stickman}></div>
-            <div className={styles.spiral}></div>
+            <div className={styles.rotate}></div>
             <div className={styles.star}></div>
         </section>
        
