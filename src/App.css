@@ -6,7 +6,6 @@
 /* wave divider between project and contact section */
 .spacer {
   aspect-ratio: 900/150;
-  width: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -15,10 +14,16 @@
 
 .layer1 {
   background-image: url('/public/images/waves.svg');
+  background-size: cover; /* or 'contain' based on your preference */
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .backgroundContainer{
   background-image: url('/public/images/blob.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  
 }
 
 .steps{
