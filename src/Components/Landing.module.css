@@ -68,7 +68,7 @@
 
 /* css animation on img border */
 .imgContainer {
-    margin: 0 10rem 0 0;
+    margin: 0 5rem 0 5rem;
     width: 30rem;
     height: 30rem;
     border-radius: 50%;
@@ -134,9 +134,8 @@
     background-image: url('/public/images/stickman.svg');
     bottom: 12%;
     left: 86%;
-    min-height: 6vh;
-    min-width: 3vw;
-    /* z-index: 2; */
+    height: clamp(3rem, 6vh, 5rem);
+    width: clamp(2rem, 3vh, 5rem);
     /* border: 1px solid red; */
     background-repeat: no-repeat;
 }

@@ -1,10 +1,14 @@
 .projectSection {
     background-color: #2c102d;
     padding-top: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .projectHeader {
-    font-size: 3rem;
+    font-size: clamp(1rem, 10vw, 3rem);
     /* z-index: 1;     */
     color: #00C9B0;
     background-color: #2c102d;
@@ -13,6 +17,12 @@
 .projectsGrid {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    /* justify-content: center; */
     gap: 100px;
+}
+
+@media (max-width: 1200px) {
+    .projectsGrid{
+        flex-direction: column;
+    }
 }
