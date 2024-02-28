@@ -24,5 +24,13 @@
 @media (max-width: 1200px) {
     .projectsGrid{
         flex-direction: column;
+        /* gap: 60px; */
+    }
+}
+
+@media (max-width: 600px) {
+    .projectsGrid{
+        flex-direction: column;
+        /* gap: 10px; */
     }
 }
