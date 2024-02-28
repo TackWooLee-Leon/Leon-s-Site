@@ -8,17 +8,18 @@
 .projectInformation {
     display: flex;
     flex-direction: column;
-    width: clamp(1rem, 22vw, 30rem);
-    max-height: clamp(1rem, 60vh, 30rem);
+    width: 27rem;
+    /* height: 45rem; */
     border-radius: 10px;
     overflow: hidden;
+    /* border: 5px solid red; */
     box-shadow: 10px 10px 10px 10px #170918;
     
 }
 
 .projectImg {
-    min-width: clamp(2rem, 20vw, 15rem);
-    min-height: clamp(3rem, 40vh, 5rem);
+    width: 27rem;
+    height: 20rem;
     overflow: hidden;
 }
 
@@ -26,21 +27,21 @@
 
 .projectDescriptionWrapper {
     display: flex;
-    border: 1px solid red;
+    /* border: 1px solid blue; */
     justify-content: space-between;
     flex-direction: column;
     background-color: #2a1d37;
-    height: clamp(2rem, 50vh, 20rem);
+    height: 26rem;
 }
 
 .projectName {
-    font-size: clamp(1.3rem, 2.5vw, 1.5rem);
+    font-size: clamp(1.8rem, 1.6vw, 3rem);
     font-weight: 1000;
     margin-top: 1rem;
 }
 
 .projectDescriptionWrapper p {
-    font-size: clamp(0.8rem, 1vw, 2rem);
+    font-size: clamp(1.4rem, 1.2vw, 2rem);
     line-height: 1.5;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
@@ -50,7 +51,7 @@
 }
 
 .projectDescriptionWrapper span {
-    font-size: clamp(0.9rem, 1.2vw, 3rem);
+    font-size: clamp(1.6rem, 1.5vw, 3rem);
     line-height: 3rem;
     font-weight: 600;
     text-decoration: underline 0.15em rgba(0, 0, 0, 0);
@@ -85,6 +86,56 @@
 .repo img {
     /* border: 1px solid red; */
     margin-right: 5px;
-    width: clamp(2rem, 4vw, 4rem);
-    height: clamp(2rem, 5vh, 4rem);
+    width: 3rem;
+    height: 3rem;
+}
+
+@media (max-width:600px) {
+    .projectInformation{
+        max-width: 20rem;
+    }
+    .projectImg{
+        max-width: 20rem;
+        height: 13rem;
+    }
+    .projectDescriptionWrapper{
+        max-width: 20rem;
+        height: 23rem;
+    }
+    .projectDescriptionWrapper p {
+        font-size: 1rem;
+    }
+    .repo span a{
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width:380px) {
+    .projectInformation{
+        max-width: 15rem;
+    }
+    .projectImg{
+        max-width: 15rem;
+        height: 11rem;
+    }
+    .projectDescriptionWrapper{
+        max-width: 15rem;
+        height: 15rem;
+    }
+    .projectName{
+        font-size: 1.2rem;
+    }
+    .projectDescriptionWrapper p {
+        font-size: 0.7rem;
+    }
+    .repo{
+        margin-bottom: 1rem;
+    }
+    .repo span a{
+        font-size: 1rem;
+    }
+    .repo img {
+        width: 2rem;
+        height: 2rem;
+    }
 }
