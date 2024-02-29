@@ -13,20 +13,21 @@
     align-items: center;
     height: 60vh;
     width: 50rem;
-
+    margin-left: 4rem;
     margin-bottom: 10rem;
     text-align: left;
 }
 
 .contactLinks h1 {
-    font-size: 3.5rem;
+    font-size: clamp(1.5rem, 5vw, 3.5rem);
     color: #00C9B0;
 }
 
 .contactLinks p {
-    margin: 4rem 0 3rem 0;
+    margin: 2rem 0 3rem 0;
+    max-width: 40ch;
     font-weight: 800;
-    font-size: 1.4rem;
+    font-size: clamp(1.2rem, 1.6vw, 1.4rem);
     word-spacing: 0.1rem;
     line-height: 2rem;
 }
@@ -82,6 +83,7 @@
     border-radius: 25px;
     width: 50rem;
     /* background-color: #39224a; */
+    padding-right: 2rem;
 }
 
 .contactHeader {
@@ -90,7 +92,7 @@
     margin-bottom: 2rem;
 }
 
-.formContainer form {
+.form {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -101,7 +103,7 @@
     margin-bottom: 0.5rem;
 } */
 
-.formContainer input {
+.form input {
     margin-bottom: 3rem;
     padding: 1rem 0.8rem;
     font-size: 1.2rem;
@@ -115,11 +117,11 @@
     transition: box-shadow 300ms;
 }
 
-.formContainer input:hover {
+.form input:hover {
     box-shadow: 15px 15px 10px #09040b;
 }
 
-.formContainer input:focus {
+.form input:focus {
     outline: 2px solid #00C9B0;
 }
 
@@ -131,7 +133,7 @@
     font-weight: 600;
     padding: 0.8rem;
     width: 30rem;
-    height: 20vh;
+    height: 30vh;
     border-radius: 10px;
     border: 0;
     resize: none;
@@ -174,4 +176,41 @@
 
 .button:hover{
     border: 2px solid #00C9B0;
+}
+
+.simpleForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.simpleForm h1{
+    font-size: clamp(2.6rem, 6vw, 3.5rem);
+    color: #00C9B0;
+    margin: 2rem;
+}
+
+
+@media (max-width: 1200px) {
+    .contactLinks{
+        display: none;
+    }
+    .formContainer{
+        display: none;
+    }
+    .form input{
+        width: clamp(18rem, 60vw, 30rem);
+        padding: 0.7rem;
+        font-size: clamp(1rem, 2.5vw, 1.3rem);
+    }
+    #message {
+        width: clamp(18rem, 60vw, 30rem);
+        padding: 0.7rem;
+        font-size: clamp(0.9rem, 2.5vw, 1.3rem);
+    }
+}
+
+@media (min-width: 1200px) {
+    .simpleForm{
+        display: none;
+    }
 }

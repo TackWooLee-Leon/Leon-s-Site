@@ -41,7 +41,7 @@
 }
 
 .projectDescriptionWrapper p {
-    font-size: clamp(1.4rem, 1.2vw, 2rem);
+    font-size: clamp(1.3rem, 1vw, 2rem);
     line-height: 1.5;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
