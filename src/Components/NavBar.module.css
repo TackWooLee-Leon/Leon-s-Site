@@ -26,7 +26,7 @@ nav a {
     margin-right: auto;
     font-weight: 600;
     margin-left: 1rem;
-    font-size: 2rem;
+    font-size: clamp(1rem, 6vw, 2rem);
 }
 
 
