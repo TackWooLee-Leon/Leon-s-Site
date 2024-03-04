@@ -6,7 +6,7 @@ AOS.init();
 export default function ProjectsDisplay({info}) {
     console.log(info);
     return (
-        <section id="projects" className={styles.projectContainer}>
+        <section className={styles.projectContainer}>
             <div data-aos-duration="700" data-aos="fade-up" className={styles.projectInformation}>
                     <img className={styles.projectImg} src={process.env.PUBLIC_URL + info.src} alt={info.alt}></img>
                 
