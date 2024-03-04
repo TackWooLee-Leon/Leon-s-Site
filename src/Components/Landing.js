@@ -11,7 +11,7 @@ export default function Landing() {
         <section id="about" className={styles.landingContainer}>
         <div className={styles.contentContainer}>
             <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" className={styles.imgContainer}>
-                <img src="/images/picture.jpg" alt="My Picture"></img>
+                <img src={process.env.PUBLIC_URL + "/images/picture.jpg"} alt="My Picture"></img>
             </div>
 
             <div className={styles.introductionContainer}>
@@ -29,11 +29,11 @@ export default function Landing() {
                         in vanilla JS and React JS.  */}
                     </p>
                     <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="600" className={styles.logosContainer}>
-                        <img src="/images/html.svg" alt="HTML Logo"></img>
-                        <img src="/images/css.svg" alt="CSS Logo"></img>
-                        <img src="/images/javascript.svg" alt="JS Logo"></img>
-                        <img src="/images/react.svg" alt="React Logo"></img>
-                        <img src="/images/github.svg" alt="GitHub Logo"></img>
+                        <img src={process.env.PUBLIC_URL + "/images/html.svg"} alt="HTML Logo"></img>
+                        <img src={process.env.PUBLIC_URL + "/images/css.svg"} alt="CSS Logo"></img>
+                        <img src={process.env.PUBLIC_URL + "/images/javascript.svg"} alt="JS Logo"></img>
+                        <img src={process.env.PUBLIC_URL + "/images/react.svg"} alt="React Logo"></img>
+                        <img src={process.env.PUBLIC_URL + "/images/github.svg"} alt="GitHub Logo"></img>
                     </div>
                 
             </div>
