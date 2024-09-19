@@ -35,7 +35,7 @@
 }
 
 .projectName {
-    font-size: clamp(1.8rem, 1.6vw, 3rem);
+    font-size: clamp(1.5rem, 1.5vw, 3rem);
     font-weight: 1000;
     margin-top: 1rem;
 }

@@ -17,8 +17,11 @@
 .projectsGrid {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70rem;
     /* justify-content: center; */
-    gap: 100px;
+    gap: 5rem;
 }
 
 @media (max-width: 1200px) {
