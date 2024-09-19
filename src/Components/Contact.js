@@ -14,7 +14,7 @@ export default function Contact () {
                     <p>I'm currently looking for a <span>Web Developer</span> role, let me know if you think I'm a good fit! If you have questions, you can contact me through the form as well.</p>
                     <div data-aos="zoom-in" className={styles.emailContainer}>
                         <a href="mailto:tackwlee01@gmail.com"><img src={process.env.PUBLIC_URL + "/images/gmail.svg"} alt="gmail logo"></img></a>
-                        <h2>Email me at <a className={styles.emailLink} href="mailto:tackwlee1@gmail.com">tackwlee1@gmail.com</a></h2>
+                        <h2>Email me at <a className={styles.emailLink} href="mailto:tackwlee01@gmail.com">tackwlee01@gmail.com</a></h2>
                     </div>
                     {/* <h3>or click the gmail icon above!</h3> */}
                 </div>
