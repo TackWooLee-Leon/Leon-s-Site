@@ -17,9 +17,9 @@ const projectsList = [
     name: 'Pokémon Soullocke Tracker',
     description: 'A web app for managing Pokémon teams in a Soullocke challenge. It helps users track their Pokémon pairs, ensuring no shared primary types, with features like drag-and-drop to move Pokémon between tables.',
     src: '/images/pokemon-soullocke-tracker.png',
-    alt: "Pokémon Soullocke Tracker",
-    href: 'https://github.com/TackWooLee-Leon/pokemon-soullocke-tracker?tab=readme-ov-file'
-  }
+    alt: "Pokemon Soullocke Tracker",
+    href: 'https://github.com/TackWooLee-Leon/pokemon-soullocke-tracker'
+  },
 ];
 
 export default projectsList
